@@ -1,4 +1,4 @@
-[# Ex.No:4(A)  JAVA CONSTRUCTOR
+# Ex.No:4(A)  JAVA CONSTRUCTOR
 ## AIM:
 To demonstrate the usage of a static method for calculating power in Java.
 
@@ -52,4 +52,4 @@ public class Sample {
 
 ## RESULT:
 Thus the Java program To demonstrate the usage of a static method for calculating power in Java executed successfully.
-](https://github.com/Veeraragavanv27/19AI307_JAVA/blob/main/Module-03)
+
