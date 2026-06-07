@@ -1,47 +1,53 @@
-# Ex.No:1(A) CLASS & OBJECTS
+# Ex.No:1(B) VARIABLES AND OPERATOR
 
 ## AIM:
-To create a class named 'Student' with String variable 'name' and String variable 'address'.
+To display the number of days in a month based on its numeric input (1–12) using basic conditional statements.
 
 ## ALGORITHM :
-1.	Start the program.
-2.	Define a class named 'Student'
-3.	Declare a String variable 'name' and initialize it with the value "John"
-4.	Declare a String variable 'address' and initialize it with the value "Chennai"
-5.	Define a class named 'Test'
-6.	Define the 'main' method within the 'Test' class
-7.	Create an object 'obj' of the 'Student' class
-8.	Print the value of 'name' and 'address' variables of the 'obj' object
-9.	End
+1. Start the program and create a Scanner object to read input from the user.
 
+2. Read two integers a and b from the user.
 
+3. Check if a is less than 50.
 
+4. If a is less than 50 and also less than b, set t to true and print it.
+
+5. If a is not less than 50, set t to false and print it.
 ## PROGRAM:
  ```
-Program to implement a class & objects using Java
+Program to implement a variable and operators using Java
 Developed by: Veeraragavan V
-RegisterNumber: 212223230237
+RegisterNumber:  212223230237
 
-class Student{
-    String name;
-    String address;
-    int rollno;
+import java.util.*;
+public class Demo{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int a , b;
+        boolean t;
+        a = sc.nextInt();
+        b = sc.nextInt();
+        if(a<50){
+            if(a<b){
+                t = true;
+                System.out.println(t);
+            }
+        }
+        else{
+                t= false;
+                System.out.println(t);
+            }
+    }
 }
-public class Main {
-    public static void main(String[] args) {
-        Student obj= new Student();   
-        obj.name="John";
-        obj.address="Chennai";
-        obj.rollno=10;
-        System.out.println(obj.name+" "+obj.address+" "+obj.rollno);
-    }   
-}
+
+
 ```
 
 ## OUTPUT:
 
-![Screenshot 2025-05-07 134821](https://github.com/user-attachments/assets/47ba58b0-ed4e-4ee5-bc28-4e39268126ee)
+![Screenshot 2025-05-09 132153](https://github.com/user-attachments/assets/4a52f1e8-c401-449a-ac01-e420fdb279c2)
 
 
 ## RESULT:
-Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
+Thus, to display the number of days in a month based on its numeric input (1–12) using basic conditional statements is executed successfully.
+
